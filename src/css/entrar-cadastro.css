@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: 'Poppins Bold', sans-serif;
+    color: #ffffff;
+}
+
+.sair-logo {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    padding: 20px;
+}
+
+.sair-logo a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 50px;
+    margin-top: -30px;
+    margin-left: -40px;
+    border-bottom-right-radius: 50%;
+    font-size: 20px;
+    background-color: #031812;
+    border: none;
+}
+
+.font-size {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.container {
+    width: 483px;
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+    background-color: #031812;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.container h1 {
+    font-size: 40px;
+}
+
+.text-align-left {
+    text-align: left;
+    padding: 30px 50px;
+}
+
+.text-align-left input {
+    margin-top: 5px;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    border: none;
+    border-radius: 20px;
+}
+
+.container button {
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 0;
+    width: 300px;
+}
+
+.container button:hover {
+    cursor: pointer;
+    background-color: #333;
+    transform: scale(1.10);
+}
